@@ -54,6 +54,7 @@ section{
     box-shadow: 10px 10px 40px  gray;
     border-radius: 10px;
     height: 80%;
+    background-color: white;
 }
 .experience-area{
     background-image: url("images/exp-bg.png");
@@ -62,6 +63,14 @@ section{
 }
 #full-stack{
     border-left: 7px solid;
-    background-image: linear-gradient(lightSalmon tomato);
-    border-image-slice: 1;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 2;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 2;
+}
+.footer p{
+    text-align: center;
 }
