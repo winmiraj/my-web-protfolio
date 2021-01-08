@@ -11,7 +11,7 @@ h1{
 h2{
     font-size: 40px;
 }
-.name_highlight{
+.orange_highlight{
     color: orange;
 }
 p{
@@ -21,7 +21,7 @@ p{
     float: left;
     width: 40%;
     margin-left: 5%;
-    padding-left: 1px;
+    padding-left: 5px;
 }
 .half-width img{
     width: 100%;
@@ -49,4 +49,19 @@ section{
     height: 500px;
     background-repeat: no-repeat;
     background-position: right;
+}
+.single_experience{
+    box-shadow: 10px 10px 40px  gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    background-image: linear-gradient(lightSalmon tomato);
+    border-image-slice: 1;
 }
