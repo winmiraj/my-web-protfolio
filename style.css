@@ -67,9 +67,9 @@ section{
     border-image-slice: 2;
 }
 #baby-web{
-    border-left: 7px solid;
+    border-left: 8px solid;
     border-image: linear-gradient(180deg,blue, cyan);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
 .footer p{
     text-align: center;
